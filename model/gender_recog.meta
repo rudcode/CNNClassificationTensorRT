@@ -1,0 +1,15 @@
+{
+    "net": {
+        "batch": 32, 
+        "width": 100, 
+        "height": 200, 
+        "channels": 3
+    }, 
+    "classes": 2, 
+    "inp_name": "conv2d_input", 
+    "inp_size": [200, 100, 3], 
+    "out_name": "dense_1/Softmax", 
+    "out_size": [2], 
+    "name": "gender_recog", 
+    "labels": ["male", "female"]
+}
